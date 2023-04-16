@@ -7,14 +7,15 @@ import { Link } from 'react-router-dom';
 const Header = () => {
 	return (
 		<div className='header'>
-			<MenuIcon className='header_Menu' />
-			<button
-				className='header_button'
-				onClick={() => {
-					console.log('Clicked button');
-				}}>
-				Movie DB
-			</button>
+			<Link
+				to='/'
+				className='header_Menu'>
+				<MenuIcon className='header_Menu' />
+			</Link>
+
+			<Link to='/'>
+				<button className='header_button'>Movie DB</button>
+			</Link>
 			<section className='header_nav'>
 				<Link
 					className='header_nav_releases'

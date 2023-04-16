@@ -10,6 +10,7 @@
 .header_Menu {
 	margin-left: 5px;
 	cursor: pointer;
+	color: whitesmoke;
 }
 
 .header_button {
@@ -43,4 +44,3 @@
 .header_nav_popular:hover {
 	color: red;
 }
-		

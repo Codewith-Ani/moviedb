@@ -1,0 +1,23 @@
+.newmovies {
+	margin: 20px auto;
+	padding: 10px 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.newmovies span {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.newmovies span img {
+	width: 30px;
+}
+
+.newmovies_CardContainer {
+	width: 80vw;
+	height: auto;
+	margin: 5px;
+	padding: 5px;
+}

@@ -27,6 +27,15 @@ const App = () => {
 			<Header />
 			<Routes>
 				<Route
+					path='/'
+					element={<HotMovies />}
+				/>
+
+				<Route
+					path='/new'
+					element={<NewMovies />}
+				/>
+				<Route
 					path='/new'
 					element={<NewMovies />}
 				/>

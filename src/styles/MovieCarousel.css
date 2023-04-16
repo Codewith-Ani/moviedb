@@ -1,0 +1,53 @@
+.MovieCarousel {
+	margin: 10px auto;
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+.MovieCarousel_poster {
+	width: 780px;
+}
+.MovieCarousel_poster_img {
+	width: 100%;
+}
+
+.MovieCarousel_div_movieImg {
+	margin: 10px;
+	background-color: #fff;
+	max-width: 780px;
+	height: 100%;
+	padding: 2px 10px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.MovieCarousel_section_movieImg {
+	width: 50%;
+	padding: 20px;
+}
+
+.MovieCarousel_section_movieImg img {
+	width: 100%;
+	height: 100%;
+}
+.MovieCarousel_section_movieText {
+	width: 50%;
+	height: 500px;
+	display: flex;
+	margin: 2px;
+	padding: 10px;
+	flex-direction: column;
+	justify-content: start;
+	align-items: flex-start;
+}
+.MovieCarousel_section_movieText span {
+	text-align: justify;
+}
+
+.Star {
+	color: #e9e920;
+	margin-left: 5px;
+}
