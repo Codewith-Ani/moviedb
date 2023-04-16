@@ -1,0 +1,46 @@
+.header {
+	background-color: black;
+	color: white;
+	padding: 5px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header_Menu {
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+.header_button {
+	background-color: rgb(194, 124, 15);
+	font-weight: bold;
+	margin: 5px auto;
+	padding: 5px 12px;
+	border-radius: 20px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.header_nav {
+	font-size: 12px;
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	margin-right: 10px;
+}
+
+.header_nav_releases,
+.header_nav_popular {
+	text-decoration: none;
+	color: whitesmoke;
+	cursor: pointer;
+	transition: color 0.2s ease-in;
+}
+
+.header_nav_releases:hover,
+.header_nav_popular:hover {
+	color: red;
+}
+		

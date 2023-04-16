@@ -1,0 +1,27 @@
+.hotmovies {
+	margin: 20px auto;
+	padding: 10px 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.hotmovies span {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hotmovies span img {
+	width: 30px;
+}
+
+.hotmovies_CardContainer {
+	width: 50%;
+	margin: 20px auto;
+	padding: 10px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 20px;
+}
